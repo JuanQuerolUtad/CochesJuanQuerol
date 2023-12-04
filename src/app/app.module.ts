@@ -12,6 +12,9 @@ import { Coche4Component } from './coches/coche4/coche4.component';
 import { Coche5Component } from './coches/coche5/coche5.component';
 import { Coche6Component } from './coches/coche6/coche6.component';
 import { CocheComponent } from './coche/coche.component';
+import { CabeceraComponent } from './cabecera/cabecera.component';
+import { PieComponent } from './pie/pie.component';
+import { ModelosCochesComponent } from './modelos-coches/modelos-coches.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { CocheComponent } from './coche/coche.component';
     Coche4Component,
     Coche5Component,
     Coche6Component,
-    CocheComponent
+    CocheComponent,
+    CabeceraComponent,
+    PieComponent,
+    ModelosCochesComponent
   ],
   imports: [
     BrowserModule,
